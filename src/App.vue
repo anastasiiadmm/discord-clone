@@ -128,27 +128,112 @@
       </div>
       <div class="flex-1 bg-blue-500 flex overflow-y-hidden">
         <div class="bg-gray-800 w-56 flex-none flex flex-col justify-between">
-          <div class="overflow-y-auto">
-            In nisl metus, consectetur in sollicitudin eu, semper vel elit. Nunc nunc erat, ornare at ullamcorper ac,
-            pulvinar at sapien. Sed nec feugiat lorem, eu porta ipsum. Proin finibus neque mauris, sit amet convallis
-            leo
-            elementum quis. Vestibulum vitae pellentesque arcu, a blandit tellus. Aliquam consequat blandit felis, quis
-            ullamcorper est sagittis nec. Sed tristique a tortor blandit viverra. In eu nulla eget lectus eleifend
-            aliquet
-            Integer condimentum at massa in vulputate. Proin nec odio elementum, placerat mauris vitae, dignissim diam.
-            Donec ullamcorper imperdiet fermentum. Integer sagittis, lectus tempor pretium semper, elit augue consequat
-            quam, blandit elementum erat libero id diam. In sodales tincidunt nunc, eu iaculis turpis suscipit a. In
-            porta
-            neque eleifend eleifend congue. Ut ac hendrerit mauris, efficitur lobortis massa. Duis tristique ligula eget
-            arcu venenatis dignissim. Aliquam euismod nisi vitae vestibulum facilisis. Fusce sagittis metus nec justo
-            interdum suscipit quis ut felis. Nullam sed imperdiet erat. Cras sed leo efficitur, vehicula ipsum at,
-            euismod
-            libero. Nulla eleifend facilisis malesuada. Nunc vehicula ac elit sit amet sollicitudin. Quisque feugiat
-            justo
-            at erat venenatis, in efficitur massa feugiat.
+          <div class="text-sm overflow-y-auto">
+            <ul class="px-2 py-3">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">questions</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">announcements</span>
+                </a>
+              </li>
+            </ul>
+
+            <button class="flex items-center text-gray-500 hover:text-gray-200 uppercase">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down mr-2 ml-1"
+                   viewBox="0 0 16 16">
+                <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+              </svg>
+              General
+            </button>
+            <ul class="px-2 py-3">
+              <li class="text-white px-2 hover:text-gray-200 hover:bg-gray-900 bg-gray-700 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">tasks-questions</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">tests-questions</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">just-for-fun</span>
+                </a>
+              </li>
+            </ul>
+
+            <button class="flex items-center text-gray-500 hover:text-gray-200 uppercase">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down mr-2 ml-1"
+                   viewBox="0 0 16 16">
+                <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+              </svg>
+              Useful information
+            </button>
+            <ul class="px-2 py-3">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">random</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">materials-links</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
+                <a href="#" class="flex items-center">
+                  <span class="text-xl">#</span>
+                  <span class="ml-2">materials-information</span>
+                </a>
+              </li>
+            </ul>
+
           </div>
-          <div class="bg-gray-500 bottom">
-            Bottom
+          <div class="bg-slate-900 py-2 py-2 flex items-center justify-between">
+            <div class="flex items-center">
+              <a href="">
+                <img src="./assets/images/discord-logo.png"
+                     alt="discord"
+                     class="w-8 h-8 rounded-full mx-auto"
+                />
+              </a>
+              <div class="text-xs ml-2">
+                <div class="text-white">user</div>
+                <div class="text-gray-700 text-xs">#4576</div>
+              </div>
+            </div>
+            <div class="flex items-center text-gray-500">
+              <a href="#" class="ml-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic-mute-fill" viewBox="0 0 16 16">
+                  <path d="M13 8c0 .564-.094 1.107-.266 1.613l-.814-.814A4.02 4.02 0 0 0 12 8V7a.5.5 0 0 1 1 0v1zm-5 4c.818 0 1.578-.245 2.212-.667l.718.719a4.973 4.973 0 0 1-2.43.923V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 1 0v1a4 4 0 0 0 4 4zm3-9v4.879L5.158 2.037A3.001 3.001 0 0 1 11 3z"/>
+                  <path d="M9.486 10.607 5 6.12V8a3 3 0 0 0 4.486 2.607zm-7.84-9.253 12 12 .708-.708-12-12-.708.708z"/>
+                </svg>
+              </a>
+              <a href="#" class="ml-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+                  <path d="M8 3a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8a6 6 0 1 1 12 0v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1V8a5 5 0 0 0-5-5z"/>
+                </svg>
+              </a>
+              <a href="#" class="ml-3 mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                  <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
         <div class="flex-1 flex justify-between">
