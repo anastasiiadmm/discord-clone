@@ -31,23 +31,100 @@
             </a>
           </li>
           <li class="mt-3">
-            <a href="#" class="hover:bg-teal-500 hover:text-white w-12 h-12 bg-gray-800 text-teal-500 inline-block rounded-full">
-              <img class="w-5 h-5 mx-auto my-3.5" src="./assets/images/plus-sign.png" />
+            <a href="#"
+               class="hover:bg-teal-500 hover:text-white w-12 h-12 bg-gray-800 text-teal-500 inline-block rounded-full">
+              <img alt="plus" class="w-5 h-5 mx-auto my-3.5" src="./assets/images/plus-sign.png"/>
             </a>
           </li>
           <li class="border-b border-gray-700 mx-4 mt-3"></li>
           <li class="mt-3">
-            <a href="#" class="hover:bg-teal-500 hover:text-white w-12 h-12 bg-gray-800 text-teal-500 inline-block rounded-full">
-              <img class="w-5 h-5 mx-auto my-3.5" src="./assets/images/compass-svgrepo-com.svg" />
+            <a href="#"
+               class="hover:bg-teal-500 hover:text-white w-12 h-12 bg-gray-800 text-teal-500 inline-block rounded-full">
+              <img alt="compass" class="w-5 h-5 mx-auto my-3.5" src="./assets/images/compass-svgrepo-com.svg"/>
             </a>
           </li>
         </ul>
       </div>
     </div>
     <div class="flex flex-col min-h-screen h-screen">
-      <div class="bg-red-500 flex">
-        <div class="bg-red-300 w-56 flex-none">Css</div>
-        <div>Rest of top bar</div>
+      <div class="flex text-white h-12">
+        <div class="bg-gray-800 w-56 flex-none flex items-center justify-between px-3 py-2">
+          <div>CSS</div>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down"
+                 viewBox="0 0 16 16">
+              <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 bg-gray-700 flex items-center justify-between px-4">
+          <div class="flex items-center">
+            <div class="text-gray-500 text-2xl">#</div>
+            <div class="ml-2 text-sm text-white">general</div>
+            <div class="border-l pl-3 ml-3 border-gray-600 text-xs text-gray-400">tasks-questions</div>
+          </div>
+          <div class="flex items-center">
+            <a href="#" class="ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hash"
+                   viewBox="0 0 16 16">
+                <path
+                    d="M8.39 12.648a1.32 1.32 0 0 0-.015.18c0 .305.21.508.5.508.266 0 .492-.172.555-.477l.554-2.703h1.204c.421 0 .617-.234.617-.547 0-.312-.188-.53-.617-.53h-.985l.516-2.524h1.265c.43 0 .618-.227.618-.547 0-.313-.188-.524-.618-.524h-1.046l.476-2.304a1.06 1.06 0 0 0 .016-.164.51.51 0 0 0-.516-.516.54.54 0 0 0-.539.43l-.523 2.554H7.617l.477-2.304c.008-.04.015-.118.015-.164a.512.512 0 0 0-.523-.516.539.539 0 0 0-.531.43L6.53 5.484H5.414c-.43 0-.617.22-.617.532 0 .312.187.539.617.539h.906l-.515 2.523H4.609c-.421 0-.609.219-.609.531 0 .313.188.547.61.547h.976l-.516 2.492c-.008.04-.015.125-.015.18 0 .305.21.508.5.508.265 0 .492-.172.554-.477l.555-2.703h2.242l-.515 2.492zm-1-6.109h2.266l-.515 2.563H6.859l.532-2.563z"/>
+              </svg>
+            </a>
+            <a href="#" class="ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell"
+                   viewBox="0 0 16 16">
+                <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+              </svg>
+            </a>
+            <a href="#" class="ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                   class="bi bi-pin-angle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a5.927 5.927 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707-.195-.195.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a5.922 5.922 0 0 1 1.013.16l3.134-3.133a2.772 2.772 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146z"/>
+              </svg>
+            </a>
+            <a href="#" class="ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                   class="bi bi-people-fill" viewBox="0 0 16 16">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd"
+                      d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+              </svg>
+            </a>
+            <a href="#" class="ml-4">
+              <form action="#" class="relative">
+                <input type="text" placeholder="Search" class="rounded bg-gray-900 text-gray-200 text-xs px-2 py-1"/>
+                <span class="absolute right-0 top-0 mr-1" style="top:6px">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                       class="bi bi-search" viewBox="0 0 16 16"
+                  >
+                      <path
+                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </span>
+              </form>
+            </a>
+            <a href="#" class="ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                   class="bi bi-inbox-fill" viewBox="0 0 16 16">
+                <path
+                    d="M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 0 0 0 11.02 4H4.98zm-1.17-.437A1.5 1.5 0 0 1 4.98 3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374l3.7-4.625z"/>
+              </svg>
+            </a>
+            <a href="#" class="ml-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                   class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path
+                    d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
       <div class="flex-1 bg-blue-500 flex overflow-y-hidden">
         <div class="bg-green-300 w-56 flex-none flex flex-col justify-between">
