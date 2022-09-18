@@ -48,7 +48,7 @@
     </div>
     <div class="flex flex-col min-h-screen h-screen">
       <div class="flex text-white h-12">
-        <div class="bg-gray-800 w-56 flex-none flex items-center justify-between px-3 py-2">
+        <div class="bg-gray-800 border-b border-gray-900 w-56 flex-none flex items-center justify-between px-3 py-2">
           <div>CSS</div>
           <button>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down"
@@ -58,7 +58,7 @@
             </svg>
           </button>
         </div>
-        <div class="flex-1 bg-gray-700 flex items-center justify-between px-4">
+        <div class="flex-1 bg-gray-700 flex items-center justify-between px-4 border-b border-gray-900">
           <div class="flex items-center">
             <div class="text-gray-500 text-2xl">#</div>
             <div class="ml-2 text-sm text-white">general</div>
@@ -127,7 +127,7 @@
         </div>
       </div>
       <div class="flex-1 bg-blue-500 flex overflow-y-hidden">
-        <div class="bg-green-300 w-56 flex-none flex flex-col justify-between">
+        <div class="bg-gray-800 w-56 flex-none flex flex-col justify-between">
           <div class="overflow-y-auto">
             In nisl metus, consectetur in sollicitudin eu, semper vel elit. Nunc nunc erat, ornare at ullamcorper ac,
             pulvinar at sapien. Sed nec feugiat lorem, eu porta ipsum. Proin finibus neque mauris, sit amet convallis
@@ -151,8 +151,8 @@
             Bottom
           </div>
         </div>
-        <div class="bg-green-500 flex-1 flex justify-between">
-          <div class="bg-indigo-300 flex-1 flex flex-col justify-between">
+        <div class="flex-1 flex justify-between">
+          <div class="bg-gray-700 flex-1 flex flex-col justify-between">
             <div class="overflow-y-auto">
               Display. Integer condimentum at massa in vulputate. Proin nec odio elementum, placerat mauris vitae,
               dignissim diam. Donec ullamcorper imperdiet fermentum. Integer sagittis, lectus tempor pretium semper,
