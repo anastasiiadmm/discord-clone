@@ -5,7 +5,7 @@
 <template>
   <div class="flex">
     <div class="bg-gray-900 w-20 flex-none flex flex-col min-h-screen h-screen px-2 py-2">
-      <div class="overflow-y-auto">
+      <div class="style-2 overflow-y-auto">
         <ul class="text-center">
           <li>
             <a href="">
@@ -128,7 +128,7 @@
       </div>
       <div class="flex-1 bg-blue-500 flex overflow-y-hidden">
         <div class="bg-gray-800 w-56 flex-none flex flex-col justify-between">
-          <div class="text-sm overflow-y-auto">
+          <div class="style-2 text-sm overflow-y-auto">
             <ul class="px-2 py-3">
               <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900 rounded">
                 <a href="#" class="flex items-center">
@@ -246,7 +246,7 @@
         </div>
         <div class="flex-1 flex justify-between">
           <div class="bg-gray-700 flex-1 flex flex-col justify-between">
-            <div class="text-sm text-gray-400 overflow-y-auto">
+            <div class="style-2 text-sm text-gray-400 overflow-y-auto">
               <div class="flex mx-6 my-3 py-4 border-t border-gray-500">
                 <div class="flex-none">
                   <a>
@@ -464,7 +464,7 @@
             </div>
           </div>
 
-          <div class="bg-gray-800 w-56 flex-none px-3 py-3 overflow-y-auto">
+          <div class="style-2 bg-gray-800 w-56 flex-none px-3 py-3 overflow-y-auto">
             <h3 class="uppercase tracking-wide font-semibold text-xs text-gray-400 mb-2">Mentor - 7</h3>
             <ul class="mb-6">
               <li class="text-gray-500 px-2 py-1 my-2">
